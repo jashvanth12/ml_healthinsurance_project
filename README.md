@@ -1,39 +1,52 @@
-# ml_healthinsurance_project
-# Problem Statement: Health Insurance Premium Prediction
-## Context
-Health insurance companies determine premium amounts for customers based on various factors such as age, health status, income, and lifestyle habits. Accurately predicting the annual premium amount is crucial for both insurers and customers:
+Health Insurance Premium Prediction
+**Introduction**
+This project aims to predict the annual health insurance premium for customers based on various demographic, health, and financial attributes. The model helps insurance companies in determining fair and personalized premium rates, improving customer satisfaction, and optimizing risk assessment.
 
-For insurers: Helps in setting fair and profitable pricing, reducing risk, and improving customer satisfaction.
-For customers: Ensures they are charged a justified amount based on their risk profile and financial status.
-Objective
-The goal of this project is to develop a machine learning model that can predict the annual premium amount a customer has to pay, using key demographic, health, and financial attributes.
+**Problem Statement**
+Insurance companies determine premium amounts based on multiple factors, including age, health conditions, lifestyle, and financial background. Manually assessing these factors is time-consuming and may lead to inconsistent pricing.
 
-Input Features (Independent Variables)
-These features represent the factors affecting insurance premium calculation:
+The objective of this project is to build a machine learning model that accurately predicts a customer's annual premium amount, enabling insurers to offer competitive and fair pricing.
 
-Demographic Details
+**Dataset Description**
+The dataset contains various attributes influencing insurance premium calculations. The key features are:
 
-Age: Older individuals may have higher premiums due to increased health risks.
-Gender: Some insurance plans may vary based on gender.
-Region: Geographic location may affect premium rates based on medical costs in that area.
-Marital Status: Married individuals may get discounts or have different risk factors.
-Number of Dependents: More dependents could increase coverage needs and costs.
-Health-Related Factors
+Input Features:
+**Demographics:**
 
-BMI Category: Higher BMI is often associated with health risks, increasing premiums.
-Smoking Status: Smokers usually have higher premiums due to increased health risks.
-Medical History: Individuals with a history of chronic diseases may pay more.
-Financial & Employment Information
+**age**: Age of the customer
+**gender**: Male/Female
+**region**: Location of the customer
+**marital_status**: Single/Married
+**number_of_dependents**: Number of dependents on the policyholder
+**Health-Related Factors:**
 
-Employment Status: Stable jobs may indicate financial security, influencing premium affordability.
-Income Level & Income (in Lakhs): Higher income groups may opt for premium plans.
-Insurance Plan: The type of plan selected (basic, premium, etc.) directly affects the cost.
-Target Variable (Dependent Variable)
-Annual Premium Amount: The predicted insurance premium that a customer will be required to pay annually.
-Business Impact
-By implementing a predictive model for health insurance premiums, insurers can:
+**bmi_category**: Body Mass Index category (Underweight, Normal, Overweight, Obese)
+**smoking_status**: Smoker/Non-smoker
+**medical_history**: Previous health conditions
+**Financial & Employment Information:**
 
-Provide personalized pricing based on customer profiles.
-Optimize risk assessment to minimize losses.
-Improve customer satisfaction by offering competitive and fair pricing.
-Enhance operational efficiency by automating premium calculations.
+**employment_status**: Employed/Self-employed/Unemployed
+**income_level**: Low/Middle/High
+**income_lakhs**: Income of the customer in lakhs
+**insurance_plan**: Type of insurance plan chosen
+**Target Variable**:
+**annual_premium_amount**: The premium amount a customer needs to pay annually (Predicted Value).
+**Solution Approach**
+**1. Data Preprocessing**
+Handling missing values
+Encoding categorical variables
+Feature scaling
+**2. Exploratory Data Analysis (EDA)**
+Identifying correlations between features and premium amount
+Visualizing distributions of key features
+**3. Model Selection & Training**
+Regression models used:
+Linear Regression
+Random Forest
+XGBoost
+Gradient Boosting
+**4. Model Evaluation**
+Metrics used:
+RMSE (Root Mean Square Error)
+MAE (Mean Absolute Error)
+R² Score (Coefficient of Determination)
