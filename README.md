@@ -14,8 +14,11 @@ Input Features:
 **Demographics:**
 
 **age**: Age of the customer
+
 **gender**: Male/Female
+
 **region**: Location of the customer
+
 **marital_status**: Single/Married
 **number_of_dependents**: Number of dependents on the policyholder
 **Health-Related Factors:**
