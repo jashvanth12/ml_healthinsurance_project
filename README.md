@@ -88,6 +88,9 @@ The **outliers** in the dataset have been addressed as follows:
 * Higher medical risks (e.g., heart disease) lead to higher risk scores.
 * Normalization ensures scores are within a standard range (0 to 1) for better comparison.
 * This approach can be extended to consider more diseases or adjust risk weights as needed.
+# Feature Selection
+![image](https://github.com/user-attachments/assets/2ea91c3e-f269-4de2-b414-9d65eefb07c7)
+* we will drop income_lakhs due to high VIF value
 
 
 
