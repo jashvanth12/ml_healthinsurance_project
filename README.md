@@ -8,6 +8,45 @@ The predictive model ensures that premiums are set fairly and accurately, reduci
 
 Additionally, the project can be extended to dynamic premium adjustments, where policyholders can receive revised premium estimates based on their lifestyle changes. The insights from this model can also help insurance companies design better policies by understanding risk patterns across different customer segments.
 
+# dataset Description
+The dataset contains various attributes influencing insurance premium calculations. The key features are:
+
+Input Features:
+
+Demographics:
+
+age: Age of the customer
+
+gender: Male/Female
+
+region: Location of the customer
+
+marital_status: Single/Married
+
+number_of_dependents: Number of dependents on the policyholder
+
+Health-Related Factors:
+
+bmi_category: Body Mass Index category (Underweight, Normal, Overweight, Obese)
+
+smoking_status: Smoker/Non-smoker
+
+medical_history: Previous health conditions
+
+Financial & Employment Information:
+
+employment_status: Employed/Self-employed/Unemployed
+
+income_level: Low/Middle/High
+
+income_lakhs: Income of the customer in lakhs
+
+insurance_plan: Type of insurance plan chosen
+
+Target Variable:
+
+annual_premium_amount: The premium amount a customer needs to pay annually (Predicted Value).
+
 
 
 
