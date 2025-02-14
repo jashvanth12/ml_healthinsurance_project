@@ -126,6 +126,23 @@ we split the dataset into 2 parts
 We have very few extreme errors (only 0.3%) which means this model looks good and no further investigation is required
 
 
+# Data Requesting to Business Team
+* Extreme Errors Increased – After splitting the dataset for the young age group (≤25 years), the extreme errors rose to 73%, indicating poor model performance.
+* Request for Additional Data – Due to high error rates, additional data was requested from the business team to improve predictions.
+* Genetic Score as Key Factor – The business team provided genetic score data, which was identified as a highly influential factor for the young age group
+
+# Young Age group Model Perfomance After Adding Genetical Score
+![image](https://github.com/user-attachments/assets/4c415e7f-c33f-4036-82df-f4efa97030ab)
+
+* Adding Genetic Score significantly improved the model performance for the young age group.
+* XGBoost now performs exceptionally well with a 0.99 test score.
+* This suggests that Genetic Score is a strong predictor for insurance premium estimation in young customers.
+
+
+
+
+
+
 
 
 
