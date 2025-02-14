@@ -91,6 +91,8 @@ The **outliers** in the dataset have been addressed as follows:
 # Feature Selection
 ![image](https://github.com/user-attachments/assets/2ea91c3e-f269-4de2-b414-9d65eefb07c7)
 * we will drop income_lakhs due to high VIF value
+# Model Perfomance
+![image](https://github.com/user-attachments/assets/6d4b6786-d704-433a-ba21-f1c4e6e013be)
 
 
 
