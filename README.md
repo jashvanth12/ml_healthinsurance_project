@@ -82,6 +82,14 @@ The **outliers** in the dataset have been addressed as follows:
 * There are fewer individuals in the highest income bracket (>40L), but they tend to opt for Gold or Silver plans rather than Bronze.
 * Bronze plans dominate across all income levels, but the proportion decreases as income increases.
 
+# Feature Engineering
+![image](https://github.com/user-attachments/assets/395d01d1-d9de-423c-9a51-d52e625d04c5)
+* individuals with no diseases have a risk score of 0.
+* Higher medical risks (e.g., heart disease) lead to higher risk scores.
+* Normalization ensures scores are within a standard range (0 to 1) for better comparison.
+* This approach can be extended to consider more diseases or adjust risk weights as needed.
+
+
 
 
 
