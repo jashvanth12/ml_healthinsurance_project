@@ -75,6 +75,16 @@ The **outliers** in the dataset have been addressed as follows:
 * Income is highly skewed, suggesting income disparities among customers.
 * Annual premium payments follow a similar pattern to income, with a majority in the lower range
 
+# Bivariate Analysis
+![image](https://github.com/user-attachments/assets/0b478f48-50ff-4ad7-a639-fbec62456d92)
+* Lower-income individuals (<10L) predominantly choose Bronze plans, likely due to affordability concerns.
+* As income increases, the preference for Gold and Silver plans rises, indicating that higher-income individuals are more willing to invest in better insurance coverage.
+* There are fewer individuals in the highest income bracket (>40L), but they tend to opt for Gold or Silver plans rather than Bronze.
+* Bronze plans dominate across all income levels, but the proportion decreases as income increases.
+
+
+
+
 
 
 
