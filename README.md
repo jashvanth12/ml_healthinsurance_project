@@ -48,12 +48,12 @@ Target Variable:
 annual_premium_amount: The premium amount a customer needs to pay annually (Predicted Value).
 
 # Handling Missing Values
-The dataset had missing values in **smoking_status (11), employment_status (2), and income_level (13)**, which were dropped to ensure data quality. This helps maintain model accuracy by avoiding               
+* The dataset had missing values in **smoking_status (11), employment_status (2), and income_level (13)**, which were dropped to ensure data quality. This helps maintain model accuracy by avoiding               
 inconsistencies caused by null values.
-There is no duplicated data.
+* There is no duplicated data.
 
 # Data Cleaning
-    We can see some negative values in number_of_dependants. We can replace them with positive numbers
+* We can see some negative values in number_of_dependants. We can replace them with positive numbers
 
 
     
