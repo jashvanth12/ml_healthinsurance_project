@@ -122,6 +122,7 @@ we split the dataset into 2 parts
 ![image](https://github.com/user-attachments/assets/102de2a7-b673-4fe0-9cf1-cdc0134113de)
 # Error Analysis
 ![image](https://github.com/user-attachments/assets/cdaa3787-dd3d-4a53-b45d-831de8b14e6d)
+
 We have very few extreme errors (only 0.3%) which means this model looks good and no further investigation is required
 
 
