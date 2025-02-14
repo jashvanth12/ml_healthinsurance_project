@@ -57,7 +57,9 @@ inconsistencies caused by null values.
 
 # Univariate Analysis: Numeric Columns
 *The dataset analysis revealed the presence of outliers in the 'Age' and 'Income' columns, which may impact the overall statistical analysis and model performance.
+
 ![image](https://github.com/user-attachments/assets/0ffc1fd4-8f3a-4466-b3d9-2b9ab3bfcd2e)
+
 ![image](https://github.com/user-attachments/assets/046a6b73-764f-4a1e-b6da-abbb3c1f0c2f)
 
 
