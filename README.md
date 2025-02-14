@@ -107,7 +107,7 @@ we split the dataset into 2 parts
 * df_young contains customers aged 25 or younger.
 * df_rest includes customers older than 25 for separate analysis or modeling.
 
-**for Young Age Group**
+# For Young Age Group
 **Model Perfomance**
 ![image](https://github.com/user-attachments/assets/c6cedaab-a5d3-45d4-bd58-ee30d6b5e653)
 
@@ -116,6 +116,15 @@ we split the dataset into 2 parts
 * We have 73% extreme errors. We need to handle them
 * By comparing distributions of results_df with extreme errors dataframe we don't get much insights. May be we need more features
   in order to improve the performance. We will ask business to collect more features for our dataset as we are kind of stuck here
+
+# For Rest Age
+* Model Perfomance
+![image](https://github.com/user-attachments/assets/102de2a7-b673-4fe0-9cf1-cdc0134113de)
+# Error Analysis
+![image](https://github.com/user-attachments/assets/cdaa3787-dd3d-4a53-b45d-831de8b14e6d)
+We have very few extreme errors (only 0.3%) which means this model looks good and no further investigation is required
+
+
 
 
 
