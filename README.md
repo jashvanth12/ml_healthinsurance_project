@@ -16,29 +16,17 @@ Input Features:
 Demographics:
 
 age: Age of the customer
-
 gender: Male/Female
-
 region: Location of the customer
-
 marital_status: Single/Married
-
 number_of_dependents: Number of dependents on the policyholder
-
 Health-Related Factors:
-
 bmi_category: Body Mass Index category (Underweight, Normal, Overweight, Obese)
-
 smoking_status: Smoker/Non-smoker
-
 medical_history: Previous health conditions
-
 Financial & Employment Information:
-
 employment_status: Employed/Self-employed/Unemployed
-
 income_level: Low/Middle/High
-
 income_lakhs: Income of the customer in lakhs
 
 insurance_plan: Type of insurance plan chosen
