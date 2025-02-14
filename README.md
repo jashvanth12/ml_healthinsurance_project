@@ -70,10 +70,10 @@ The **outliers** in the dataset have been addressed as follows:
 
 ![image](https://github.com/user-attachments/assets/5e58c4c0-bbb8-48bc-9e8b-717a054c9def)
 
-*Most individuals are young (20–30 years) with fewer older customers.
-*Many people have no dependents, but a significant portion has 1–3 dependents.
-*Income is highly skewed, suggesting income disparities among customers.
-*Annual premium payments follow a similar pattern to income, with a majority in the lower range
+* Most individuals are young (20–30 years) with fewer older customers.
+* Many people have no dependents, but a significant portion has 1–3 dependents.
+* Income is highly skewed, suggesting income disparities among customers.
+* Annual premium payments follow a similar pattern to income, with a majority in the lower range
 
 
 
