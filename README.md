@@ -94,6 +94,15 @@ The **outliers** in the dataset have been addressed as follows:
 # Model Perfomance
 ![image](https://github.com/user-attachments/assets/6d4b6786-d704-433a-ba21-f1c4e6e013be)
 
+# Error Analysis
+![image](https://github.com/user-attachments/assets/b01d992d-aa15-4668-a7ab-f7f48bebfbc2)
+* We have 30% extreme errors which means for 30% customers we will either overcharge or undercharge by 10% or more
+* There will be about 549 customers whom we will overcharge or underchage by more than 50%
+
+![image](https://github.com/user-attachments/assets/5bf6ecff-6221-4e28-b61f-190dce420d92)
+* This shows that majority of the extreme errors are coming from young age group (i.e. <25 years of age). We need to may be build a separate model for this segment
+
+
 
 
 
