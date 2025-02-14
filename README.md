@@ -16,17 +16,29 @@ Input Features:
 Demographics:
 
 age: Age of the customer
+
 gender: Male/Female
+
 region: Location of the customer
+
 marital_status: Single/Married
+
 number_of_dependents: Number of dependents on the policyholder
+
 Health-Related Factors:
+
 bmi_category: Body Mass Index category (Underweight, Normal, Overweight, Obese)
+
 smoking_status: Smoker/Non-smoker
+
 medical_history: Previous health conditions
+
 Financial & Employment Information:
+
 employment_status: Employed/Self-employed/Unemployed
+
 income_level: Low/Middle/High
+
 income_lakhs: Income of the customer in lakhs
 
 insurance_plan: Type of insurance plan chosen
@@ -34,6 +46,9 @@ insurance_plan: Type of insurance plan chosen
 Target Variable:
 
 annual_premium_amount: The premium amount a customer needs to pay annually (Predicted Value).
+
+# Exploratory Data Analysis
+The dataset had missing values in **smoking_status (11), employment_status (2), and income_level (13)**, which were dropped to ensure data quality. This helps maintain model accuracy by avoiding inconsistencies caused by null values.
 
 
 
