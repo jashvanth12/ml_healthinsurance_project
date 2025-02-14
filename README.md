@@ -64,9 +64,9 @@ inconsistencies caused by null values.
 
 The **outliers** in the dataset have been addressed as follows:
 
-*Age Column: All records where age exceeds 100 have been removed to maintain data integrity.
+***Age Column**: All records where age exceeds 100 have been removed to maintain data integrity.
 
-*Income Column: Instead of using the IQR method, which would remove many legitimate records, we opted for a quantile-based threshold approach. After discussions with the business team, we selected the 0.999 quantile, which corresponds to an income threshold of 100 lakhs.
+***Income Column**: Instead of using the IQR method, which would remove many legitimate records, we opted for a quantile-based threshold approach. After discussions with the business team, we selected the 0.999 quantile, which corresponds to an income threshold of 100 lakhs.
 
 
 
