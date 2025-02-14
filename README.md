@@ -101,6 +101,24 @@ The **outliers** in the dataset have been addressed as follows:
 
 ![image](https://github.com/user-attachments/assets/5bf6ecff-6221-4e28-b61f-190dce420d92)
 * This shows that majority of the extreme errors are coming from young age group (i.e. <25 years of age). We need to may be build a separate model for this segment
+* 
+# Split Dataset
+we split the dataset into 2 parts
+* df_young contains customers aged 25 or younger.
+* df_rest includes customers older than 25 for separate analysis or modeling.
+
+**for Young Age Group**
+**Model Perfomance**
+![image](https://github.com/user-attachments/assets/c6cedaab-a5d3-45d4-bd58-ee30d6b5e653)
+
+# Error Analysis
+![image](https://github.com/user-attachments/assets/6a194885-3d21-4ebd-a3a1-6126a125facc)
+* We have 73% extreme errors. We need to handle them
+* By comparing distributions of results_df with extreme errors dataframe we don't get much insights. May be we need more features
+  in order to improve the performance. We will ask business to collect more features for our dataset as we are kind of stuck here
+
+
+
 
 
 
